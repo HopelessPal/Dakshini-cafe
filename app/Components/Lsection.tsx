@@ -6,7 +6,7 @@ const Lsection = () => {
     return (
         <div className='bg-slate-800 text-white h-auto flex flex-col items-center font-serif'>
                 <div className="w-full"> 
-                    <div className='flex flex-col justify-center'>
+                    <div className='flex flex-col lg:flex-row justify-center'>
                             <div className="flex items-center flex-col subscribe_title">
                                 <p className="title font-bold text-2xl lg:text-4xl pt-24">Subscribe Our Newsletter</p>
                                 <p className='text-base lg:text-xl py-4'>To receive monthly updates</p>
