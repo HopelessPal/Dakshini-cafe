@@ -32,7 +32,7 @@ const AboutPage = () => {
                 >
                     <SwiperSlide>
                         <div className="slider_inner_content relative">
-                            <div className="image_content w-screen md:h-screen relative">
+                            <div className="image_content w-screen h-screen lg:h-screen relative">
                                 <img src="/image1.JPG" alt="slider" className=' h-full object-cover relative w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
@@ -46,7 +46,7 @@ const AboutPage = () => {
                         </div>
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <div className="slider_inner_content relative">
                             <div className="image_content w-full md:h-screen relative">
                                 <img src="/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
@@ -90,7 +90,7 @@ const AboutPage = () => {
                                 </Link>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
             </div>
         </div>

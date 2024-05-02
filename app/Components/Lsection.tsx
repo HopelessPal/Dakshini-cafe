@@ -29,9 +29,9 @@ const Lsection = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div className="grid grid-cols-3 gap-20 text-center m-8 w-3/4">
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 text-center m-8 w-3/4">
                 <div className="col-lg-4 col-md-4 order-md-1 order-lg-1">
                     <div className="footer_about">
                         <h4 className="font-bold text-2xl flex justify-start footer_title pb-8 mt-11">About Us</h4>
@@ -85,18 +85,18 @@ const Lsection = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-4 col-md-4 order-md-2 order-lg-3">
+                <div className="col-lg-3 order-md-2 order-lg-3">
                     <div className="footer_instagram ">
                         <h4 className="text-2xl pb-8 mt-11 flex justify-start font-bold ">Instagram Feed</h4>
                         <div className="grid grid-cols-4 gap-2">
-                            <a href="#"><img src="/image1.jpg" className=' hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className=' hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
                         </div>
                     </div>
                 </div>
