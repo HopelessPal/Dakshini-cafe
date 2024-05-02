@@ -6,7 +6,6 @@ import Menu from "./Components/Menu";
 import Section from "./Components/Section";
 import Upcoming from "./Components/Upcoming";
 import Lsection from "./Components/Lsection";
-import CustomerFeedback from "./Components/CustomerFeedback";
 import Banner from "./Components/banner";
 import Map from "./Components/Map";
 
