@@ -19,41 +19,29 @@ const Section = () => {
     return (
         <div className='flex flex-col items-center justify-center bg-white font-serif'>
 
-            <div className="about-section flex flex-col items-center mb-10 mx-44">
-                <div className="about-content p-4">
+            <div className="about-section flex flex-col items-center lg:mx-44">
+                <div className="about-content ">
                     <h2 className="lg:text-6xl text-3xl text-center mt-20 text-[#2A2A2A]">Our Specials</h2>
 
                     {/* svg which can be changed */}
                     <div className="flex justify-center">
-                        <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                            width="90px" height="80px" viewBox="0 0 312.05 312.05">
-
-                            <g>
-                                <g>
-                                    <path d="M232.01,99.367c-29.426,0-53.662,22.541-56.384,51.258h-41.9c-2.732-28.717-26.963-51.258-56.386-51.258
-			c-29.42,0-53.66,22.541-56.384,51.258H5.4c-2.984,0-5.4,2.42-5.4,5.4c0,2.979,2.416,5.399,5.4,5.399h15.557
-			c2.734,28.72,26.969,51.258,56.384,51.258c29.418,0,53.66-22.538,56.381-51.258h41.905c2.731,28.72,26.958,51.258,56.384,51.258
-			s53.652-22.538,56.389-51.258h18.252c2.979,0,5.399-2.421,5.399-5.399c0-2.98-2.42-5.4-5.399-5.4h-18.252
-			C285.663,121.908,261.431,99.367,232.01,99.367z"/>
-                                </g>
-                            </g>
-                        </svg>
+                        <img src="./compressedImages/line.png" alt="line" className='w-52'/>
                     </div>
                 </div>
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center">
                         <div className="flex flex-col items-center mt-4" data-aos='fade-up'>
-                            <img src="./compressedImages/image1.jpg" alt="Product 1" className="rounded-full w-20 h-20 m-2" />
+                            <img src="./compressedImages/image1.jpg" alt="Product 1" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] mt-2 text-xl">Product 1</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur temporibus voluptatum?</p>
                         </div>
                         <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="200">
-                            <img src="./compressedImages/image2.jpg" alt="Product 2" className="rounded-full w-20 h-20 m-2" />
+                            <img src="./compressedImages/image2.jpg" alt="Product 2" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] text-xl mt-2">Product 2</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deleniti suscipit repudiandae.</p>
                         </div>
                         <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="400">
-                            <img src="./compressedImages/image3.jpg" alt="Product 3" className="rounded-full w-20 h-20 m-2" />
+                            <img src="./compressedImages/image3.jpg" alt="Product 3" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] text-xl mt-2">Product 3</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eius quos adawasd rationdadawdde?</p>
                         </div>
@@ -66,19 +54,7 @@ const Section = () => {
                 <div className="about-section flex flex-col items-center mb-10">
                     <h2 className="lg:text-5xl text-3xl text-center mt-20 font-serif font-bold text-[#2A2A2A]">Our Story</h2>
                     <div className="flex justify-center">
-                        <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                            width="90px" height="80px" viewBox="0 0 312.05 312.05">
-
-                            <g>
-                                <g>
-                                    <path d="M232.01,99.367c-29.426,0-53.662,22.541-56.384,51.258h-41.9c-2.732-28.717-26.963-51.258-56.386-51.258
-			c-29.42,0-53.66,22.541-56.384,51.258H5.4c-2.984,0-5.4,2.42-5.4,5.4c0,2.979,2.416,5.399,5.4,5.399h15.557
-			c2.734,28.72,26.969,51.258,56.384,51.258c29.418,0,53.66-22.538,56.381-51.258h41.905c2.731,28.72,26.958,51.258,56.384,51.258
-			s53.652-22.538,56.389-51.258h18.252c2.979,0,5.399-2.421,5.399-5.399c0-2.98-2.42-5.4-5.399-5.4h-18.252
-			C285.663,121.908,261.431,99.367,232.01,99.367z"/>
-                                </g>
-                            </g>
-                        </svg>
+                    <img src="./compressedImages/line.png" alt="line" className='w-52'/>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center mb-8 px-4 font-serif">
                         <div className="lg:w-1/2 mt-10 w-full">
@@ -88,7 +64,7 @@ const Section = () => {
                         {/* text content */}
 
                         <div className="w-full lg:w-1/2 lg:px-4">
-                            <h2 className="lg:text-4xl font-bold my-4 text-[#2A2A2A]">About Restaurant</h2>
+                            <h2 className="lg:text-4xl text-2xl font-bold my-4 text-[#2A2A2A]">About Restaurant</h2>
                             <p className='text-base text-[#7A7A7A]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam impedit cupiditate optio delectus ratione, earum cum natus rerum officiis accusantium odio totam est rem perferendis magnam, doloremque voluptates enim nostrum. Eaque eum qui, praesentium quo porro autem commodi accusantium reiciendis quas dolorem consectetur laborum molestias culpa amet velit cum?</p>
                             <br />
                             <p className='text-base text-[#7A7A7A]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem aliquam veniam modi iusto quia.</p>

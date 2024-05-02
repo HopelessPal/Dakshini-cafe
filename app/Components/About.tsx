@@ -32,12 +32,12 @@ const AboutPage = () => {
                 >
                     <SwiperSlide>
                         <div className="slider_inner_content relative">
-                            <div className="image_content w-screen h-screen lg:h-screen relative lg:w-full">
-                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-full object-cover relative w-full' />
+                            <div className="image_content w-full lg:h-screen relative">
+                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
-                            <div className="absolute lg:top-1/2  lg:left-48 left-10 text-left lg:w-3/4 lg:w- pt-[50px]">
-                                <h1 className="text-white lg:text-5xl text-3xl text-left pb-4 leading-6 font">Serving since 2024</h1>
+                            <div className="absolute lg:top-1/2 top-1/3  lg:left-52 left-10 text-left lg:w-1/2 w-3/4 pt-[50px]">
+                                <h1 className="text-white lg:text-5xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
                                 <Link href="#menu">
                                     <button className='text-white text-lg bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>

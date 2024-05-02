@@ -2,21 +2,21 @@ import React from 'react';
 
 
 const Lsection = () => {
+
     return (
         <div className='bg-slate-800 text-white h-auto flex flex-col items-center font-serif'>
-            <div className="footer_subscribe">
-                <div className="h-full"> 
-                    <div className='flex justify-center border '>
-                            <div className="subscribe_title px-10">
-                                <p className="title font-bold text-xl lg:text-4xl py-4 ">Subscribe Our Newsletter</p>
-                                <p className='text-base lg:text-xl'>To receive monthly updates</p>
+                <div className="w-full"> 
+                    <div className='flex flex-col justify-center'>
+                            <div className="flex items-center flex-col subscribe_title">
+                                <p className="title font-bold text-2xl lg:text-4xl pt-24">Subscribe Our Newsletter</p>
+                                <p className='text-base lg:text-xl py-4'>To receive monthly updates</p>
                             </div>
                         
                         <div className="col-lg-6 flex items-center justify-center lg:justify-end">
-                            <div className="subscribe_form">
+                            <div className="subscribe_form w-full ">
                                 <form action="#" className="flex items-center">
-                                    <input type="email" placeholder="Enter Your Email" className='w-full rounded-lg p-4' />
-                                    <button className="flex justify-center items-center bg-orange-500 m-4 rounded-lg w-14 h-14 ">
+                                    <input type="email" placeholder="Enter Your Email" className='w-full rounded-md p-4 m-2' />
+                                    <button className="flex justify-center items-center bg-orange-500 rounded-lg w-14 h-14 ">
                                         <svg fill="#1C2033" width="28" height="28" version="1.1" id="lni_lni-envelope" xmlns="http://www.w3.org/2000/svg" x="0px"
                                             y="0px" viewBox="0 0 64 64">
                                             <path d="M56,9.6H8c-3.4,0-6.3,2.8-6.3,6.3v32.4c0,3.4,2.8,6.3,6.3,6.3h48c3.4,0,6.3-2.8,6.3-6.3V15.8C62.3,12.4,59.4,9.6,56,9.6z
@@ -29,12 +29,11 @@ const Lsection = () => {
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 text-center m-8 w-3/4">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-14 text-center m-8 w-3/4">
                 <div className="col-lg-4 lg:order-1">
                     <div className="footer_about">
-                        <h4 className="font-bold text-2xl flex justify-start footer_title pb-8 mt-11">About Us</h4>
+                        <h4 className="font-bold text-2xl flex justify-start footer_title">About Us</h4>
                         <p className='flex justify-start text-left tex-base leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolore laboriosam dolores eos quidem iure omnis ipsum animi placeat. Excepturi.</p>
                         {/* icons or links */}
                         <div className="flex mt-8">
@@ -71,8 +70,8 @@ const Lsection = () => {
                 </div>
 
                 <div className="col-lg-4 lg:order-2">
-                    <div className="footer_link mt-45">
-                        <h4 className="text-2xl flex justify-start footer_title pb-8 mt-11 leading-6 font-bold">Opening Hours</h4>
+                    <div className="footer_link ">
+                        <h4 className="text-2xl flex justify-start footer_title leading-2 font-bold">Opening Hours</h4>
                         <div className='text-left'>
                             <ul>
                                 <li className='py-1'>Mon-Fri: 08.00 A.M - 10.00 P.M</li>
@@ -87,7 +86,7 @@ const Lsection = () => {
 
                 <div className="col-lg-3 lg:order-3">
                     <div className="footer_instagram ">
-                        <h4 className="text-2xl pb-8 mt-11 flex justify-start font-bold ">Instagram Feed</h4>
+                        <h4 className="text-2xl flex justify-start font-bold ">Instagram Feed</h4>
                         <div className="grid grid-cols-4 gap-2">
                             <a href="#"><img src="./compressedImages/image1.jpg" className=' hover:pointer rounded-lg' alt="instagram" /></a>
                             <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>

@@ -16,7 +16,10 @@ const Upcoming = () => {
 
     return (
         <div className='bg-white flex flex-col items-center justify-center font-serif'>
-            <h2 className="text-5xl font-bold my-14">Upcoming</h2>
+            <h2 className="text-5xl font-bold my-8">Upcoming</h2>
+            <div className="flex justify-center">
+                    <img src="./compressedImages/line.png" alt="line" className='w-52'/>
+                    </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:px-40 p-10
             ">
                 <div className="flex flex-col items-center lg:pl-6" data-aos="fade-zoom-in"

@@ -2,8 +2,11 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div id="counter" className="text-black counter_area py-12 relative font-serif">
+        <div id="counter" className="counter_area py-12 relative font-serif">
             <div className='flex justify-center items-center'>
+            <img src="./compressedImages/unnamed.jpg" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-50" />
+            <div className="absolute inset-0 bg-black opacity-50">
+            </div>  
                 <div className="flex flex-col lg:flex-row justify-between items-center w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="w-full lg:w-1/3 flex flex-col justify-center items-center my-8">
                         <div className="single_counter">
@@ -31,9 +34,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                <img src="./compressedImages/unnamed.jpg" alt="Background" className="absolute inset-0 w-full h-full bg-black object-cover opacity-50" />
-            </div>
+            
         </div>
     );
 }

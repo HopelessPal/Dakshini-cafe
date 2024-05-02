@@ -2,9 +2,12 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div className='flex justify-center items-center p-2'>
-            <form id="contact-form" className='w-3/4'>
-                <h1 className="text-5xl text-bold font-serif mb-8 mt-10 flex justify-center items-center">GET IN TOUCH</h1>
+        <div className='flex justify-center items-center px-4'>
+            <form id="contact-form" className='w-full'>
+                <h1 className="lg:text-5xl text-2xl text-bold font-serif mt-6 flex justify-center items-center">GET IN TOUCH</h1>
+                <div className="flex justify-center my-4">
+                    <img src="./compressedImages/line.png" alt="line" className='w-52' />
+                </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
                     <div>
                         <div className="col-span-1">
@@ -19,13 +22,13 @@ const ContactForm = () => {
                         </div>
                     </div>
                     <div className="col-span-2">
-                        <div className="single_form mt-4">
+                        <div className="single_form">
                             <input name="subject" type="text" placeholder="Subject" className="border border-gray-500 px-4 py-3 rounded h-16 w-full" />
                         </div>
                     </div>
                     <div className="col-span-2">
                         <div className="single_form mt-4">
-                            <textarea name="message" placeholder="Message" className="border border-gray-500 px-4 py-3 rounded w-full h-48"></textarea>
+                            <textarea name="message" placeholder="Message" className="border border-gray-500 px-2 py-3 rounded w-full h-48"></textarea>
                         </div>
                     </div>
                     <div className="col-span-2">
