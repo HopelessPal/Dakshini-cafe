@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image';
+import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 import logo from "../../public/compressedImages/logo-cropped.png"
 
@@ -35,7 +35,7 @@ const Navbar = () => {
                     <div className='flex items-center justify-between h-16'>
                         <div className='flex items-center'>
                             <div className='flex-shrink-0'>
-                                <Image src={logo} alt="logo" className='h-10' />
+                                <Image src={logo} alt="logo" className='h-10 w-40' />
                             </div>
                         </div>
                         <div className='hidden lg:block'>

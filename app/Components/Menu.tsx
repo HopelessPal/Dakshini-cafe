@@ -32,7 +32,6 @@ const Menu = () => {
                 <img src="./compressedImages/line.png" alt="line" className='w-52' />
             </div>
             <div className='grid lg:grid-cols-2 gap-8 grid-cols-1 mx-auto pb-5'>
-
                 <div className='relative flex justify-center' data-aos="fade-up">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
                         <Image src={item1} alt='Image 1' className='w-full h-full object-cover' />
