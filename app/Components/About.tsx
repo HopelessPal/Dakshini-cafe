@@ -15,7 +15,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const AboutPage = () => {
     return (
         <div>
-            <div className="swiper_content w-full">
+            <div className="swiper_content w-full font-serif">
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
