@@ -19,12 +19,12 @@ const Section = () => {
     return (
         <div className='flex flex-col items-center justify-center bg-white font-serif'>
 
-            <div className="about-section flex flex-col items-center lg:mx-44">
+            <div className="about-section flex flex-col items-center lg:mx-44 mx-2">
                 <div className="about-content ">
                     <h2 className="lg:text-6xl text-3xl text-center mt-20 text-[#2A2A2A]">Our Specials</h2>
 
                     {/* svg which can be changed */}
-                    <div className="flex justify-center">
+                    <div className="flex justify-center m-4">
                         <img src="./compressedImages/line.png" alt="line" className='w-52'/>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Section = () => {
                         <div className="flex flex-col items-center mt-4" data-aos='fade-up'>
                             <img src="./compressedImages/image1.jpg" alt="Product 1" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] mt-2 text-xl">Product 1</h3>
-                            <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur temporibus voluptatum?</p>
+                            <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur voluptatum?</p>
                         </div>
                         <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="200">
                             <img src="./compressedImages/image2.jpg" alt="Product 2" className="rounded-full w-20 h-20 lg:m-2" />
@@ -53,7 +53,7 @@ const Section = () => {
             <div className="mt-auto">
                 <div className="about-section flex flex-col items-center mb-10">
                     <h2 className="lg:text-5xl text-3xl text-center mt-20 font-serif font-bold text-[#2A2A2A]">Our Story</h2>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center m-4">
                     <img src="./compressedImages/line.png" alt="line" className='w-52'/>
                     </div>
                     <div className="flex flex-col lg:flex-row items-center mb-8 px-4 font-serif">

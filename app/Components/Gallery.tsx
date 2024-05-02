@@ -2,10 +2,10 @@ import React from 'react'
 
 const gallery = () => {
     return (
-        <div id='gallery' className='p-4 lg:py-32 flex justify-center items-center bg-white font-serif'>
+        <div id='gallery' className='lg:p-40 p-4 lg:py-32 flex justify-center items-center bg-white font-serif'>
             <div className='lg:text-5xl text-4xl'>
                 <h1 className='flex justify-center font-bold'>Gallery</h1>
-                <div className="flex justify-center mb-8">
+                <div className="flex justify-center m-4">
                     <img src="./compressedImages/line.png" alt="line" className='w-52'/>
                     </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-4'>

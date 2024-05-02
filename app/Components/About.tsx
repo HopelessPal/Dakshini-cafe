@@ -31,9 +31,9 @@ const AboutPage = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div className="slider_inner_content relative">
+                        <div className="slider_inner_content relative font-serif">
                             <div className="image_content w-full lg:h-screen relative">
-                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
+                                <img src="./compressedImages/image1.JPG" alt="slider" className='h-screen object-cover w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute lg:top-1/2 top-1/3  lg:left-52 left-10 text-left lg:w-1/2 w-3/4 pt-[50px]">

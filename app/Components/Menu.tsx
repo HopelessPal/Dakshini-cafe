@@ -21,7 +21,7 @@ const Menu = () => {
                     Menu
                 </div>
             </div>
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center m-4">
                 <img src="./compressedImages/line.png" alt="line" className='w-52' />
             </div>
             <div className='grid lg:grid-cols-2 gap-8 grid-cols-1 mx-auto pb-5'>
