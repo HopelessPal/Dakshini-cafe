@@ -43,12 +43,12 @@ const Section = () => {
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 place-items-center">
                         <div className="flex flex-col items-center mt-4" data-aos='fade-up'>
-                            <img src="/image1.jpg" alt="Product 1" className="rounded-full w-20 h-20 m-2" />
+                            <img src="/image1.jpg" alt="Product 1" className="rounded-full lg:w-15 lg:h-15 w-20 h-20 m-2" />
                             <h3 className="text-center text-[#2A2A2A] mt-2 text-xl">Product 1</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur temporibus voluptatum?</p>
                         </div>
                         <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="200">
-                            <img src="/image2.jpg" alt="Product 2" className="rounded-full w-20 h-20 m-2" />
+                            <img src="/image2.jpg" alt="Product 2" className="rounded-full lg:w-14 lg:h-14 w-20 h-20 m-2" />
                             <h3 className="text-center text-[#2A2A2A] text-xl mt-2">Product 2</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deleniti suscipit repudiandae.</p>
                         </div>
