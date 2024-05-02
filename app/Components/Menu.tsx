@@ -2,6 +2,13 @@
 import React, { useEffect } from 'react';
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import Image from 'next/image';
+import item1 from "../../public/compressedImages/image1.jpg";
+import item2 from "../../public/compressedImages/image2.jpg";
+import item3 from "../../public/compressedImages/image3.jpg";
+import item4 from "../../public/compressedImages/image4.jpg";
+import item5 from "../../public/compressedImages/image5.jpg";
+import item6 from "../../public/compressedImages/image6.jpg";
 
 const Menu = () => {
 
@@ -28,7 +35,7 @@ const Menu = () => {
 
                 <div className='relative flex justify-center' data-aos="fade-up">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
-                        <img src='./compressedImages/image1.jpg' alt='Image 1' className='w-full h-full object-cover' />
+                        <Image src={item1} alt='Image 1' className='w-full h-full object-cover' />
                     </div>
                     <div className='ml-10 w-1/2'>
                         <div className='flex justify-between items-center h-auto font-bold text-xl'>
@@ -41,7 +48,7 @@ const Menu = () => {
 
                 <div className='relative flex justify-center' data-aos="fade-up">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
-                        <img src='./compressedImages/image2.jpg' alt='Image 1' className='w-full h-full object-cover' />
+                        <Image src={item2} alt='Image 1' className='w-full h-full object-cover' />
                     </div>
                     <div className='ml-10 w-1/2'>
                         <div className='flex justify-between items-center h-auto font-bold text-xl'>
@@ -54,7 +61,7 @@ const Menu = () => {
 
                 <div className='relative flex justify-center' data-aos="fade-up" data-aos-delay="200">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
-                        <img src='./compressedImages/image3.jpg' alt='Image 1' className='w-full h-full object-cover' />
+                        <Image src={item3} alt='Image 1' className='w-full h-full object-cover' />
                     </div>
                     <div className='ml-10 w-1/2'>
                         <div className='flex justify-between items-center h-auto font-bold text-xl'>
@@ -67,7 +74,7 @@ const Menu = () => {
 
                 <div className='relative flex justify-center' data-aos="fade-up" data-aos-delay="200">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
-                        <img src='./compressedImages/image4.jpg' alt='Image 1' className='w-full h-full object-cover' />
+                        <Image src={item4} alt='Image 1' className='w-full h-full object-cover' />
                     </div>
                     <div className='ml-10 w-1/2'>
                         <div className='flex justify-between items-center h-auto font-bold text-xl'>
@@ -80,7 +87,7 @@ const Menu = () => {
 
                 <div className='relative flex justify-center' data-aos="fade-up" data-aos-delay="400">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
-                        <img src='./compressedImages/image5.jpg' alt='Image 1' className='w-full h-full object-cover' />
+                        <Image src={item5} alt='Image 1' className='w-full h-full object-cover' />
                     </div>
                     <div className='ml-10 w-1/2'>
                         <div className='flex justify-between items-center h-auto font-bold text-xl'>
@@ -93,7 +100,7 @@ const Menu = () => {
 
                 <div className='relative flex justify-center' data-aos="fade-up" data-aos-delay="400">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
-                        <img src='./compressedImages/image6.jpg' alt='Image 1' className='w-full h-full object-cover' />
+                        <Image src={item6} alt='Image 1' className='w-full h-full object-cover' />
                     </div>
                     <div className='ml-10 w-1/2'>
                         <div className='flex justify-between items-center h-auto font-bold text-xl'>

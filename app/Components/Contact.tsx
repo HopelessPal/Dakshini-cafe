@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import line from "../../public/compressedImages/line.png";
 
 const ContactForm = () => {
     return (
@@ -6,7 +8,7 @@ const ContactForm = () => {
             <form id="contact-form" className='w-full'>
                 <h1 className="lg:text-5xl text-2xl text-bold font-serif mt-6 flex justify-center items-center">GET IN TOUCH</h1>
                 <div className="flex justify-center m-4">
-                    <img src="./compressedImages/line.png" alt="line" className='w-52' />
+                    <Image src={line} alt="line" className='w-52' />
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
                     <div className="lg:col-span-1 col-span-2">

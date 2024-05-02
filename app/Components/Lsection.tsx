@@ -1,5 +1,13 @@
 import React from 'react';
-
+import Image from 'next/image';
+import item1 from "../../public/compressedImages/image1.jpg";
+import item2 from "../../public/compressedImages/image2.jpg";
+import item3 from "../../public/compressedImages/image3.jpg";
+import item4 from "../../public/compressedImages/image4.jpg";
+import item5 from "../../public/compressedImages/image5.jpg";
+import item6 from "../../public/compressedImages/image6.jpg";
+import item7 from "../../public/compressedImages/image7.jpg";
+import item8 from "../../public/compressedImages/image8.jpg";
 
 const Lsection = () => {
 
@@ -88,14 +96,14 @@ const Lsection = () => {
                     <div className="footer_instagram ">
                         <h4 className="text-2xl flex justify-start font-bold ">Instagram Feed</h4>
                         <div className="grid grid-cols-4 gap-2">
-                            <a href="#"><img src="./compressedImages/image1.jpg" className=' hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
-                            <a href="#"><img src="./compressedImages/image1.jpg" className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item1} className=' hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item2} className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item3} className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item4} className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item5} className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item6} className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item7} className='hover:pointer rounded-lg' alt="instagram" /></a>
+                            <a href="#"><Image src={item8} className='hover:pointer rounded-lg' alt="instagram" /></a>
                         </div>
                     </div>
                 </div>
