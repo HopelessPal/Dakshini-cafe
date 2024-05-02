@@ -34,7 +34,7 @@ const Navbar = () => {
                     <div className='flex items-center justify-between h-16'>
                         <div className='flex items-center'>
                             <div className='flex-shrink-0'>
-                                <img src="logo-cropped.png" alt="logo" className='h-10' />
+                                <img src="./compressedImages/logo-cropped.png" alt="logo" className='h-10' />
                             </div>
                         </div>
                         <div className='hidden md:block'>

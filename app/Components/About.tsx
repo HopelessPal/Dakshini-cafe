@@ -33,7 +33,7 @@ const AboutPage = () => {
                     <SwiperSlide>
                         <div className="slider_inner_content relative">
                             <div className="image_content w-screen h-screen lg:h-screen relative">
-                                <img src="/image1.JPG" alt="slider" className=' h-full object-cover relative w-full' />
+                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-full object-cover relative w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute md:top-1/2 lg:top-1/3  md:left-48 left-10 text-left md:w-3/4 lg:w- pt-[50px]">
@@ -49,7 +49,7 @@ const AboutPage = () => {
                     {/* <SwiperSlide>
                         <div className="slider_inner_content relative">
                             <div className="image_content w-full md:h-screen relative">
-                                <img src="/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
+                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute md:top-1/2 top-1/3  md:left-52 left-10 text-left md:w-1/2 w-3/4 pt-[50px]">
@@ -64,7 +64,7 @@ const AboutPage = () => {
                     <SwiperSlide>
                         <div className="slider_inner_content relative">
                             <div className="image_content w-full md:h-screen relative">
-                                <img src="/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
+                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute md:top-1/2 top-1/3  md:left-52 left-10 text-left md:w-1/2 w-3/4 pt-[50px]">
@@ -79,7 +79,7 @@ const AboutPage = () => {
                     <SwiperSlide>
                         <div className="slider_inner_content relative">
                             <div className="image_content w-full md:h-screen relative">
-                                <img src="/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
+                                <img src="./compressedImages/image1.JPG" alt="slider" className=' h-screen object-cover w-full' />
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute md:top-1/2 top-1/3  md:left-52 left-10 text-left md:w-1/2 w-3/4 pt-[50px]">
