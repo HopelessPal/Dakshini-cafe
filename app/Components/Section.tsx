@@ -8,7 +8,7 @@ const Section = () => {
 
     useEffect(() => {
         AOS.init({
-            // once: true,
+            once: true,
             disable: "phone",
             duration: 700,
             easing: "ease-out-cubic",
@@ -21,7 +21,7 @@ const Section = () => {
 
             <div className="about-section flex flex-col items-center mb-10 mx-44">
                 <div className="about-content p-4">
-                    <h2 className="md:text-6xl text-3xl text-center mt-20 text-[#2A2A2A]">Our Specials</h2>
+                    <h2 className="lg:text-6xl text-3xl text-center mt-20 text-[#2A2A2A]">Our Specials</h2>
 
                     {/* svg which can be changed */}
                     <div className="flex justify-center">
@@ -41,7 +41,7 @@ const Section = () => {
                     </div>
                 </div>
                 <div className="container mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 place-items-center">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center">
                         <div className="flex flex-col items-center mt-4" data-aos='fade-up'>
                             <img src="./compressedImages/image1.jpg" alt="Product 1" className="rounded-full w-20 h-20 m-2" />
                             <h3 className="text-center text-[#2A2A2A] mt-2 text-xl">Product 1</h3>
@@ -64,7 +64,7 @@ const Section = () => {
 
             <div className="mt-auto">
                 <div className="about-section flex flex-col items-center mb-10">
-                    <h2 className="md:text-5xl text-3xl text-center mt-20 font-serif font-bold text-[#2A2A2A]">Our Story</h2>
+                    <h2 className="lg:text-5xl text-3xl text-center mt-20 font-serif font-bold text-[#2A2A2A]">Our Story</h2>
                     <div className="flex justify-center">
                         <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                             width="90px" height="80px" viewBox="0 0 312.05 312.05">
@@ -80,15 +80,15 @@ const Section = () => {
                             </g>
                         </svg>
                     </div>
-                    <div className="flex flex-col md:flex-row items-center mb-8 px-2 mx-44 font-serif">
-                        <div className="md:w-1/2 mt-10 w-full">
+                    <div className="flex flex-col lg:flex-row items-center mb-8 px-4 font-serif">
+                        <div className="lg:w-1/2 mt-10 w-full">
                             <img src="./compressedImages/about.jpg" alt="About Restaurant image" className="rounded-lg lg:w-[550px] w-full lg:h-[550px] h-full object-contain"  />
                         </div>
 
                         {/* text content */}
 
-                        <div className="w-full md:w-1/2 px-4">
-                            <h2 className="md:text-4xl font-bold mb-4 text-[#2A2A2A]">About Restaurant</h2>
+                        <div className="w-full lg:w-1/2 lg:px-4">
+                            <h2 className="lg:text-4xl font-bold my-4 text-[#2A2A2A]">About Restaurant</h2>
                             <p className='text-base text-[#7A7A7A]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nam impedit cupiditate optio delectus ratione, earum cum natus rerum officiis accusantium odio totam est rem perferendis magnam, doloremque voluptates enim nostrum. Eaque eum qui, praesentium quo porro autem commodi accusantium reiciendis quas dolorem consectetur laborum molestias culpa amet velit cum?</p>
                             <br />
                             <p className='text-base text-[#7A7A7A]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem aliquam veniam modi iusto quia.</p>

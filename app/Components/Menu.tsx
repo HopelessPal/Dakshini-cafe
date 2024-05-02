@@ -15,7 +15,7 @@ const Menu = () => {
     }, []);
 
     return (
-        <div id='menu' className='py-32 px-28 bg-[#efefef] flex flex-col items-center justify-center h-full font-serif'>
+        <div id='menu' className='p-3 bg-[#efefef] flex flex-col items-center justify-center h-full font-serif'>
             <div className='flex justify-center'>
                 <div className='md:text-5xl text-2xl font-bold text-[#2A2A2A]'>
                     Menu
@@ -36,7 +36,7 @@ const Menu = () => {
                         </g>
                     </svg>
                 </div>
-            <div className='grid md:grid-cols-2 gap-8 grid-cols-1 mx-auto pb-5'>
+            <div className='grid lg:grid-cols-2 gap-8 grid-cols-1 mx-auto pb-5'>
 
                 <div className='relative flex justify-center' data-aos="fade-up">
                     <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white">
