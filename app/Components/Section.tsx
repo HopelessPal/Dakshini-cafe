@@ -19,7 +19,7 @@ const Section = () => {
     return (
         <div className='flex flex-col items-center justify-center bg-white font-serif relative w-full'>
 
-            <div className="about-section flex flex-col items-center mb-10 mx-52">
+            <div className="about-section flex flex-col items-center mb-10 mx-52 lg:mx-12">
                 <div className="about-content">
                     <h2 className="md:text-6xl text-3xl text-center mt-20 text-[#2A2A2A]">Our Specials</h2>
 
@@ -80,9 +80,9 @@ const Section = () => {
                             </g>
                         </svg>
                     </div>
-                    <div className="flex flex-col md:flex-row items-center mb-8 mx-40 font-serif">
+                    <div className="flex flex-col md:flex-row items-center mb-8 mx-40 lg:mx-10 font-serif">
                         <div className="w-full md:w-1/2 mt-10">
-                            <img src="/about.jpg" alt="About Restaurant image" className="rounded-lg lg:w-[550px] w-full lg:h-[550px] h-full object-contain" data-aos="fade-left" />
+                            <img src="/about.jpg" alt="About Restaurant image" className="rounded-lg lg:w-[550px] w-full lg:h-[550px] h-full object-contain lg:px-10" data-aos="fade-left" />
                         </div>
 
                         {/* text content */}
