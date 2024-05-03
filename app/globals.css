@@ -11,7 +11,7 @@
     height: 3rem;
 }
 
-.h16{
+.h16 {
     height: 274px !important;
 }
 
@@ -24,6 +24,21 @@
     margin-left: 40px;
 }
 
+.hamburgerMenu {
+    transition: all 3000ms ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.hamburgerMenu:hover,
+.hamburgerMenu:focus {
+    color: white;
+    outline: none;
+}
 
 .nav-item .nav_link {
     padding: 10px;

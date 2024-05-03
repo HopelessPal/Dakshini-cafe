@@ -51,8 +51,8 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='lg:hidden flex items-center'>
-                            <button id='hamburgerMenu'
-                                className='transition-all duration-300 ease-out -flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none ' onClick={toggleNavbar}
+                            <button id='MenuButton'
+                                className='hamburgerMenu ' onClick={toggleNavbar}
                             >
                                 {/* svg */}
                                 {isClick ? (
@@ -73,10 +73,10 @@ const Navbar = () => {
                     </div>
                 </div>
                 {isClick && (
-                    <div className='lg:hidden flex justify-center bg-slate-800'>
+                    <div className='lg:hidden flex justify-center bg-[#FB923C]'>
                         <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <a href="#About" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
-                            <a href="#Gallery" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Gallery</a>
+                            <a href="#About" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
+                            <a href="#Gallery" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
                             <a href="#Menu" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Menu</a>
                             <a href="#Upcoming" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Updates</a>
                             <a href="#Contact" className='text-white block hover:bg-white hover:text-black p-2'>Contact</a>

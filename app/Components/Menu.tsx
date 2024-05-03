@@ -22,7 +22,7 @@ const Menu = () => {
     }, []);
 
     return (
-        <div id='Menu' className=' bg-[#efefef] flex flex-col items-center justify-center h-full font-serif lg:p-24'>
+        <div id='Menu' className=' bg-[#4C4433] flex flex-col items-center justify-center h-full font-serif lg:p-24'>
             <div className='flex justify-center'>
                 <div className='md:text-5xl text-2xl font-bold text-[#2A2A2A]'>
                     Menu
