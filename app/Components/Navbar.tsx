@@ -75,11 +75,11 @@ const Navbar = () => {
                 {isClick && (
                     <div className='lg:hidden flex justify-center bg-slate-800'>
                         <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <a href="#about" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
-                            <a href="#gallery" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Gallery</a>
-                            <a href="#menu" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Menu</a>
-                            <a href="#updates" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Updates</a>
-                            <a href="#contact" className='text-white block hover:bg-white hover:text-black p-2'>Contact</a>
+                            <a href="#About" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
+                            <a href="#Gallery" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Gallery</a>
+                            <a href="#Menu" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Menu</a>
+                            <a href="#Upcoming" className='text-white block hover:bg-white hover:text-black rounded-lg p-2'>Updates</a>
+                            <a href="#Contact" className='text-white block hover:bg-white hover:text-black p-2'>Contact</a>
                         </div>
                     </div>
                 )}
