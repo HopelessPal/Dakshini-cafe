@@ -36,7 +36,7 @@ const ContactForm = () => {
                     </div>
                     <div className="col-span-2 flex justify-center mb-20 mt-5">
                         <div className="single_form">
-                            <button className="main-btn px-16 py-4 bg-[#FB923C] text-white rounded font-serif">SUBMIT</button>
+                            <button id='submitButton' className="main-btn px-16 py-4 bg-[#FB923C] text-white rounded font-serif">SUBMIT</button>
                         </div>
                     </div>
                 </div>

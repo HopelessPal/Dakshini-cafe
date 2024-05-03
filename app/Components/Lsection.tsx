@@ -24,7 +24,7 @@ const Lsection = () => {
                             <div className="subscribe_form w-full">
                                 <form action="#" className="flex items-center">
                                     <input type="email" placeholder="Enter Your Email" className='w-full rounded-md p-4' />
-                                    <button className="flex justify-center items-center bg-orange-500 rounded-lg w-14 h-14 mx-4">
+                                    <button id='subscribe' className="flex justify-center items-center bg-[#FB923C] rounded-lg w-14 h-14 mx-4">
                                         <svg fill="#1C2033" width="28" height="28" version="1.1" id="lni_lni-envelope" xmlns="http://www.w3.org/2000/svg" x="0px"
                                             y="0px" viewBox="0 0 64 64">
                                             <path d="M56,9.6H8c-3.4,0-6.3,2.8-6.3,6.3v32.4c0,3.4,2.8,6.3,6.3,6.3h48c3.4,0,6.3-2.8,6.3-6.3V15.8C62.3,12.4,59.4,9.6,56,9.6z

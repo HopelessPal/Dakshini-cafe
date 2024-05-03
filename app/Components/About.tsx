@@ -45,7 +45,7 @@ const AboutPage = () => {
                                 <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-xl text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
                                 <Link href="/Menu">
-                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                    <button id='set' className='text-white text-2xl bg-[#FB923C] px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const AboutPage = () => {
                                 <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
                                 <Link href="/Menu">
-                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                    <button id='set' className='text-white text-2xl bg-[#FB923C] px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const AboutPage = () => {
                                 <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
                                 <Link href="/Menu">
-                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                    <button id='set' className='text-white text-2xl bg-[#FB923C] px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const AboutPage = () => {
                                 <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
                                 <Link href="/Menu">
-                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                    <button id='set' className='text-white text-2xl bg-[#FB923C] px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>

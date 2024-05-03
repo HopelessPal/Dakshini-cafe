@@ -51,7 +51,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='lg:hidden flex items-center'>
-                            <button
+                            <button id='hamburgerMenu'
                                 className='transition-all duration-300 ease-out -flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none ' onClick={toggleNavbar}
                             >
                                 {/* svg */}
