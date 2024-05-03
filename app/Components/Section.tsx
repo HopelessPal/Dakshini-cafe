@@ -7,16 +7,16 @@ import line from "../../public/compressedImages/line.png";
 import image1 from "../../public/compressedImages/image1.jpg";
 import image2 from "../../public/compressedImages/image2.jpg";
 import image3 from "../../public/compressedImages/image3.jpg"
-import about from "../../public/compressedImages/about.jpg";
+import about from "../../public/compressedImages/AboutNew.jpg";
 
 
 const Section = () => {
 
     useEffect(() => {
         AOS.init({
-            once: true,
+            // once: true,
             disable: "phone",
-            duration: 700,
+            duration: 2000,
             easing: "ease-out-cubic",
         });
     }, []);
@@ -36,17 +36,17 @@ const Section = () => {
                 </div>
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 place-items-center">
-                        <div className="flex flex-col items-center mt-4" data-aos='fade-up'>
+                        <div className="flex flex-col items-center mt-4" data-aos='fade-up' data-aos-delay="200">
                             <Image src={image1} alt="Product 1" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] mt-2 text-xl">Product 1</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consectetur voluptatum?</p>
                         </div>
-                        <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="200">
+                        <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="600">
                             <Image src={image2} alt="Product 2" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] text-xl mt-2">Product 2</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis deleniti suscipit repudiandae.</p>
                         </div>
-                        <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="400">
+                        <div className="flex flex-col items-center mt-4" data-aos="fade-up" data-aos-delay="800">
                             <Image src={image3} alt="Product 3" className="rounded-full w-20 h-20 lg:m-2" />
                             <h3 className="text-center text-[#2A2A2A] text-xl mt-2">Product 3</h3>
                             <p className="text-center mt-3 text-[#7A7A7A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eius quos adawasd rationdadawdde?</p>
@@ -57,14 +57,14 @@ const Section = () => {
 
 
             <div id='About' className="mt-auto lg:mx-36">
-                <div className="about-section flex flex-col items-center mb-10">
+                <div className="about-section flex flex-col items-center mb-10 mx-20">
                     <h2 className="lg:text-5xl text-3xl text-center mt-20 font-serif font-bold text-[#2A2A2A]">Our Story</h2>
                     <div className="flex justify-center m-4">
                         <Image src={line} alt="line" className='w-52' />
                     </div>
                     <div className="flex flex-col lg:flex-row items-center mb-8 px-4 font-serif">
                         <div className="lg:w-1/2 mt-10 w-full">
-                            <Image src={about} alt="About Restaurant image" className="rounded-lg lg:w-[550px] w-full lg:h-[550px] h-full object-contain" />
+                            <Image src={about} alt="About Restaurant image" className="rounded-xl w-full lg:h-[550px] h-full object-contain" />
                         </div>
 
                         {/* text content */}

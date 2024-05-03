@@ -15,26 +15,27 @@ const Lsection = () => {
         <div className='bg-slate-800 text-white h-auto flex flex-col items-center font-serif pt-2 px-44'>
             <div className="w-full pt-12">
                 <div className='flex flex-col lg:flex-row justify-center'>
-                    <div className="subscribe_title text-center lg:text-left mb-4 lg:mb-0">
-                        <p className="title font-bold text-2xl lg:text-4xl w-full">Subscribe Our Newsletter</p>
+                    <div className="subscribe_title text-center lg:text-left mb-4 lg:mb-0 lg:mr-10">
+                        <p className="title font-bold text-2xl lg:text-4xl">Subscribe Our Newsletter</p>
                         <p className='text-base lg:text-xl py-4'>To receive monthly updates</p>
                     </div>
 
                     <div className="subscribe_form w-full">
                         <form action="#" className="flex items-center">
-                            <input type="email" placeholder="Enter Your Email" className="w-full rounded-md p-4 mx-28" />
+                            <input type="email" placeholder="Enter Your Email" className="w-full rounded-md p-4 lg:mx-7 " />
                             <button id='subscribe' className="flex justify-center items-center bg-[#FB923C] rounded-lg w-24 h-16">
                                 <svg fill="#1C2033" width="40" height="40" version="1.1" id="lni_lni-envelope" xmlns="http://www.w3.org/2000/svg" x="0px"
                                     y="0px" viewBox="0 0 64 64">
                                     <path d="M56,9.6H8c-3.4,0-6.3,2.8-6.3,6.3v32.4c0,3.4,2.8,6.3,6.3,6.3h48c3.4,0,6.3-2.8,6.3-6.3V15.8C62.3,12.4,59.4,9.6,56,9.6z
-                        M56,14.1c0.1,0,0.2,0,0.3,0L32,29.7L7.7,14.1c0.1,0,0.2,0,0.3,0H56z M56,49.9H8c-1,0-1.8-0.8-1.8-1.8V18.5l23.4,15
-                        c0.7,0.5,1.5,0.7,2.3,0.7c0.8,0,1.6-0.2,2.3-0.7l23.4-15v29.7C57.8,49.2,57,49.9,56,49.9z"/>
+                            M56,14.1c0.1,0,0.2,0,0.3,0L32,29.7L7.7,14.1c0.1,0,0.2,0,0.3,0H56z M56,49.9H8c-1,0-1.8-0.8-1.8-1.8V18.5l23.4,15
+                            c0.7,0.5,1.5,0.7,2.3,0.7c0.8,0,1.6-0.2,2.3-0.7l23.4-15v29.7C57.8,49.2,57,49.9,56,49.9z"/>
                                 </svg>
                             </button>
                         </form>
                     </div>
                 </div>
             </div>
+
 
 
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-14 text-center m-8 w-3/4">

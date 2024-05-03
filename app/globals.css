@@ -4,10 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .fixed-nav {
+    scroll-behavior: smooth;
     position: fixed;
     top: 0;
     transition: background-color 0.3s ease, height 0.3s ease;
     height: 3rem;
+}
+
+.h16{
+    height: 274px !important;
 }
 
 .fixed-nav.taller {
@@ -22,7 +27,7 @@
 
 .nav-item .nav_link {
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: #fff;
     -webkit-transition: all .3s ease-out 0s;
