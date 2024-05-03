@@ -22,14 +22,14 @@ const Menu = () => {
     }, []);
 
     return (
-        <div id='menu' className=' bg-[#efefef] flex flex-col items-center justify-center h-full font-serif'>
-            <div className='flex justify-center mt-4'>
+        <div id='Menu' className=' bg-[#efefef] flex flex-col items-center justify-center h-full font-serif lg:p-24'>
+            <div className='flex justify-center'>
                 <div className='md:text-5xl text-2xl font-bold text-[#2A2A2A]'>
                     Menu
                 </div>
             </div>
             <div className="flex justify-center m-4">
-                <img src="./compressedImages/line.png" alt="line" className='w-52' />
+                <img src="./compressedImages/line.png" alt="line" className='w-52 mb-10' />
             </div>
             <div className='grid lg:grid-cols-2 gap-8 grid-cols-1 mx-auto pb-5'>
                 <div className='relative flex justify-center' data-aos="fade-up">

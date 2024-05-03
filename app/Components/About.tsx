@@ -42,10 +42,10 @@ const AboutPage = () => {
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute lg:top-1/2 top-1/3  lg:left-52 left-10 text-left lg:w-1/2 w-3/4 pt-[50px]">
-                                <h1 className="text-white lg:text-5xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
-                                <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
-                                <Link href="#menu">
-                                    <button className='text-white text-lg bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
+                                <p className="text-white lg:text-xl text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
+                                <Link href="/Menu">
+                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>
@@ -58,10 +58,10 @@ const AboutPage = () => {
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute lg:top-1/2 top-1/3  lg:left-52 left-10 text-left lg:w-1/2 w-3/4 pt-[50px]">
-                                <h1 className="text-white lg:text-5xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
+                                <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
-                                <Link href="#menu">
-                                    <button className='text-white text-lg bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                <Link href="/Menu">
+                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>
@@ -73,10 +73,10 @@ const AboutPage = () => {
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute lg:top-1/2 top-1/3  lg:left-52 left-10 text-left lg:w-1/2 w-3/4 pt-[50px]">
-                                <h1 className="text-white lg:text-5xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
+                                <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
-                                <Link href="#menu">
-                                    <button className='text-white text-lg bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                <Link href="/Menu">
+                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>
@@ -88,10 +88,10 @@ const AboutPage = () => {
                                 <div className="absolute inset-0 bg-black opacity-50"></div>
                             </div>
                             <div className="absolute lg:top-1/2 top-1/3  lg:left-52 left-10 text-left lg:w-1/2 w-3/4 pt-[50px]">
-                                <h1 className="text-white lg:text-5xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
+                                <h1 className="text-white lg:text-6xl text-3xl text-left pb-4 leading-6">Serving since 2024</h1>
                                 <p className="text-white lg:text-base text-sm lg:leading-10 mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis odit, quas esse est, voluptas corrupti quod eum, facere error consectetur culpa alias? Velit, magni saepe!</p>
-                                <Link href="#menu">
-                                    <button className='text-white text-lg bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
+                                <Link href="/Menu">
+                                    <button className='text-white text-2xl bg-orange-400 px-[40px] py-2 rounded-md font-medium'>Menu</button>
                                 </Link>
                             </div>
                         </div>

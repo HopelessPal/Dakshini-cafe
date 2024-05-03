@@ -56,7 +56,7 @@ const Section = () => {
             </div>
 
 
-            <div className="mt-auto lg:mx-36">
+            <div id='About' className="mt-auto lg:mx-36">
                 <div className="about-section flex flex-col items-center mb-10">
                     <h2 className="lg:text-5xl text-3xl text-center mt-20 font-serif font-bold text-[#2A2A2A]">Our Story</h2>
                     <div className="flex justify-center m-4">

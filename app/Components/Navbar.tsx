@@ -42,11 +42,11 @@ const Navbar = () => {
                             <div className='ml-4 flex items-center space-x-8'>
                                 <ul className='flex text-white'>
                                     <li className='nav-item'><a href="/" className='nav_link'>Home</a></li>
-                                    <li className='nav-item'><a href="/" className='nav_link'>About</a></li>
-                                    <li className='nav-item'><a href="/" className='nav_link'>Gallery</a></li>
-                                    <li className='nav-item'><a href="/" className='nav_link'>Menu</a></li>
-                                    <li className='nav-item'><a href="/" className='nav_link'>Updates</a></li>
-                                    <li className='nav-item'><a href="/" className='nav_link'>Contact</a></li>
+                                    <li className='nav-item'><a href="#About" className='nav_link'>About</a></li>
+                                    <li className='nav-item'><a href="#Gallery" className='nav_link'>Gallery</a></li>
+                                    <li className='nav-item'><a href="#Menu" className='nav_link'>Menu</a></li>
+                                    <li className='nav-item'><a href="#Upcoming" className='nav_link'>Updates</a></li>
+                                    <li className='nav-item'><a href="#Contact" className='nav_link'>Contact</a></li>
                                 </ul>
                             </div>
                         </div>

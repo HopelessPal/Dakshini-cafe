@@ -8,7 +8,7 @@ import item4 from "../../public/compressedImages/image4.jpg";
 
 const gallery = () => {
     return (
-        <div id='gallery' className='lg:p-40 p-4 lg:py-32 flex justify-center items-center bg-white font-serif'>
+        <div id='Gallery' className='lg:p-40 p-4 lg:py-32 flex justify-center items-center bg-white font-serif'>
             <div className='lg:text-5xl text-4xl'>
                 <h1 className='flex justify-center font-bold'>Gallery</h1>
                 <div className="flex justify-center m-4">
