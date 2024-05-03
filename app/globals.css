@@ -3,6 +3,16 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s ease, height 0.3s ease;
+    height: 3rem;
+}
+
+.fixed-nav.taller {
+    height: 4rem;
+}
 
 .nav-item {
     position: relative;

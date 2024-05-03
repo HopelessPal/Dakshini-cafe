@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React, { useState, useEffect } from 'react'
 import logo from "../../public/compressedImages/logo-cropped.png"
 
+
 const Navbar = () => {
 
     const [isClick, setisClick] = useState(false);
@@ -28,11 +29,10 @@ const Navbar = () => {
     return (
         <div>
             <nav
-                className={`fixed w-full z-10 top-1${scrollY > 0 ? 'transition-all duration-600 ease-in-out top-0 text-black bg-[#FB923C]' : ''
-                    }`}
+                className={`fixed-nav w-full z-10 top-1${scrollY > 0 ? ' transition-all duration-600 ease-in-out top-0 text-black bg-[#FB923C] taller' : ''}`}
             >
-                <div className='w-full mx-auto px-6 lg:px-8 '>
-                    <div className='flex items-center justify-between h-16'>
+                <div className=' mx-auto px-6 lg:px-4 pt-2'>
+                    <div className='flex items-center justify-between lg:px-32'>
                         <div className='flex items-center'>
                             <div className='flex-shrink-0'>
                                 <Image src={logo} alt="logo" className='h-10 w-40' />
